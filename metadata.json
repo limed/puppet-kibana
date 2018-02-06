@@ -1,0 +1,46 @@
+{
+  "name": "lesaux-kibana",
+  "version": "5.0.0",
+  "author": "lesaux",
+  "summary": "Kibana installation",
+  "license": "Apache-2.0",
+  "source": "https://github.com/lesaux/puppet-kibana.git",
+  "project_page": "https://github.com/lesaux/puppet-kibana",
+  "issues_url": "https://github.com/lesaux/puppet-kibana/issues",
+  "tags": [
+    "kibana",
+    "logstash",
+    "elk",
+    "elasticsearch"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04",
+        "14.04",
+        "12.04"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-apt",
+      "version_requirement": ">= 2.1.0 <3.0.0"
+    }
+  ]
+}
